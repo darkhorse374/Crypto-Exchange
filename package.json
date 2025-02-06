@@ -1,0 +1,77 @@
+{
+  "name": "mgl",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.2.14",
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^1.4.0",
+    "bip39": "^3.0.4",
+    "concurrently": "^8.2.0",
+    "country-data": "0.0.31",
+    "country-list": "^2.2.0",
+    "crypto": "^1.0.1",
+    "detect-emoji-support": "^0.1.7",
+    "execp": "^0.0.1",
+    "firebase": "^9.5.0",
+    "framer-motion": "^4.1.17",
+    "fs": "^0.0.1-security",
+    "history": "^5.1.0",
+    "i18next": "^21.5.2",
+    "path": "^0.12.7",
+    "qrcode.react": "^1.0.1",
+    "rc-animate": "^3.1.1",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-tween-one": "^3.0.3",
+    "react": "^17.0.2",
+    "react-country-flag": "^2.3.1",
+    "react-crypto-icons": "^1.0.5",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.14.3",
+    "react-icons": "^4.3.1",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.1.6",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.6",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "client": "craco  start",
+    "server": "cd backend & npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy":"http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}

@@ -1,0 +1,112 @@
+.body {
+    font-size: 14px;
+}
+
+.text-ceter {
+    text-align:  center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.header {
+    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.semi-header {
+    font-size: 1.5em;
+}
+
+.text-grey {
+    color: rgb(134, 126, 137)
+}
+
+.walletSelect {
+    background-color: rgb(245,246,250);
+    padding: 20px;
+}
+
+
+
+
+
+.access-button {
+    background-color: rgb(76, 46, 86);
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.create-button {
+    background-color: rgb(232, 73, 112);
+    border-radius: 6px;
+    color: #ffffff
+}
+
+.use-button {
+    background-color: rgb(232, 73, 112);
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.genkey-button {
+    background-color: rgb(232, 73, 112);
+    border-radius: 6px;
+    color: #ffffff
+}
+
+.div-wrap {
+    height: 100%;
+}
+
+.div-relative {
+    position: relative;
+}
+
+.div-absolute {
+    position: absolute;
+}
+
+.red-link {
+    color: #42b983;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.access-mode {
+    background-color: rgb(245,246,250);
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20;
+}
+
+.access-mode:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.centered-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-warp {
+    padding-top: 50px;
+    padding-bottom: 30px;;
+}
+
+.text-red {
+    color: red;
+}
+
+.keyphrase {
+    background-color: #ffffff;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+

@@ -1,0 +1,17 @@
+{
+  "short_name": "MGL",
+  "name": "MGL",
+  "description": "",
+  "iconPath": "favicon32.png",
+  "icons": [
+    {
+      "src": "favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

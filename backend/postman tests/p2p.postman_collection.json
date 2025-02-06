@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "48d05431-8e7d-4795-9c41-b60a2f84620d",
+		"name": "p2p",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "10.10.12.195:5000/api/p2p/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYzNzM1MzQ5NywiZXhwIjoxNjM3NDM5ODk3fQ.PdbML0ciGLyPopwNfgkUCbAACpWmNEY0WkxvJ6NwucU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seller_name\":\"anatoli\",\r\n    \"completed_orders\": \"Completed orders\",\r\n    \"currency\": \"USDT\",\r\n    \"amount_usdt\": 1000000000000000000000,\r\n    \"amount_mgl\": 10000000,\r\n    \"payment_method\":\"Bank transfer\",\r\n    \"price_usdt\":100,\r\n    \"price_mgl\":1000,\r\n    \"terms_conditions\":\"terms and conditions\",\r\n    \"facebook_link\": \"facebook link\",\r\n    \"telegram_link\":\"telegram link\",\r\n    \"skype_link\":\"skype link\",\r\n    \"profile_pic\":\"https://wallet-asset.matic.network/img/tokens/mgl.svg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.12.195:5000/api/p2p/create",
+					"host": [
+						"10",
+						"10",
+						"12",
+						"195"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"p2p",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.10.12.195:5000/api/p2p/id/1",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYzNzM1MzQ5NywiZXhwIjoxNjM3NDM5ODk3fQ.PdbML0ciGLyPopwNfgkUCbAACpWmNEY0WkxvJ6NwucU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seller_name\":\"anatoli\",\r\n    \"completed_orders\": \"Completed orders this is updated\",\r\n    \"currency\": \"USDT\",\r\n    \"amount_usdt\": 1000000000000000000000,\r\n    \"amount_mgl\": 10000000,\r\n    \"payment_method\":\"Bank transfer\",\r\n    \"price_usdt\":100,\r\n    \"price_mgl\":1000,\r\n    \"terms_conditions\":\"terms and conditions\",\r\n    \"facebook_link\": \"facebook link\",\r\n    \"telegram_link\":\"telegram link\",\r\n    \"skype_link\":\"skype link\",\r\n    \"profile_pic\":\"https://wallet-asset.matic.network/img/tokens/mgl.svg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.12.195:5000/api/p2p/id/5",
+					"host": [
+						"10",
+						"10",
+						"12",
+						"195"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"p2p",
+						"id",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.10.12.195:5000/api/p2p/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYzNzM1MzQ5NywiZXhwIjoxNjM3NDM5ODk3fQ.PdbML0ciGLyPopwNfgkUCbAACpWmNEY0WkxvJ6NwucU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tokenAddress\":\"0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb\",\r\n    \"tokenName\": \"MGL Coin\",\r\n    \"tokenSymbol\": \"MGL\",\r\n    \"tokenDescription\": \"This is our main token\",\r\n    \"tokenWebsite\": \"https://polygon.technology\",\r\n    \"tokenFb\":\"https://polygon.technology\",\r\n    \"tokenPic\":\"https://wallet-asset.matic.network/img/tokens/mgl.svg\",\r\n    \"tokenDecimals\":18,\r\n    \"totalSupply\":300000000,\r\n    \"presaleSupply\": 100000,\r\n    \"presalePrice\":0.15,\r\n    \"listPrice\":0.12,\r\n    \"minBuy\":100,\r\n    \"maxBuy\":5000,\r\n    \"startTime\":\"2021.11.30 GMT\",\r\n    \"endTime\":\"2021.12.12 GMT\",\r\n    \"status\":\"in progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.12.195:5000/api/p2p/",
+					"host": [
+						"10",
+						"10",
+						"12",
+						"195"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"p2p",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.10.12.195:5000/api/p2p/id/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYzNzM1MzQ5NywiZXhwIjoxNjM3NDM5ODk3fQ.PdbML0ciGLyPopwNfgkUCbAACpWmNEY0WkxvJ6NwucU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tokenAddress\":\"0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb\",\r\n    \"tokenName\": \"MGL Coin updated\",\r\n    \"tokenSymbol\": \"MGL\",\r\n    \"tokenDescription\": \"This is our main token\",\r\n    \"tokenWebsite\": \"https://polygon.technology\",\r\n    \"tokenFb\":\"https://polygon.technology\",\r\n    \"tokenPic\":\"https://wallet-asset.matic.network/img/tokens/mgl.svg\",\r\n    \"tokenDecimals\":18,\r\n    \"totalSupply\":300000000,\r\n    \"presaleSupply\": 100000,\r\n    \"presalePrice\":0.15,\r\n    \"listPrice\":0.12,\r\n    \"minBuy\":100,\r\n    \"maxBuy\":5000,\r\n    \"startTime\":\"2021.11.30 GMT\",\r\n    \"endTime\":\"2021.12.12 GMT\",\r\n    \"status\":\"in progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.12.195:5000/api/p2p/id/5",
+					"host": [
+						"10",
+						"10",
+						"12",
+						"195"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"p2p",
+						"id",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.10.12.195:5000/api/p2p/id/5",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYzNzM1MzQ5NywiZXhwIjoxNjM3NDM5ODk3fQ.PdbML0ciGLyPopwNfgkUCbAACpWmNEY0WkxvJ6NwucU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tokenAddress\":\"0xcbAe2a4625c5CB99391D8F1a0F5121B3E5A176bb\",\r\n    \"tokenName\": \"MGL Coin updated\",\r\n    \"tokenSymbol\": \"MGL\",\r\n    \"tokenDescription\": \"This is our main token\",\r\n    \"tokenWebsite\": \"https://polygon.technology\",\r\n    \"tokenFb\":\"https://polygon.technology\",\r\n    \"tokenPic\":\"https://wallet-asset.matic.network/img/tokens/mgl.svg\",\r\n    \"tokenDecimals\":18,\r\n    \"totalSupply\":300000000,\r\n    \"presaleSupply\": 100000,\r\n    \"presalePrice\":0.15,\r\n    \"listPrice\":0.12,\r\n    \"minBuy\":100,\r\n    \"maxBuy\":5000,\r\n    \"startTime\":\"2021.11.30 GMT\",\r\n    \"endTime\":\"2021.12.12 GMT\",\r\n    \"status\":\"in progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.12.195:5000/api/p2p/id/5",
+					"host": [
+						"10",
+						"10",
+						"12",
+						"195"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"p2p",
+						"id",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

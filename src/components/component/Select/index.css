@@ -1,0 +1,11 @@
+.custom-select .ant-select-selector {
+    height: 100% !important;
+    background: transparent !important;
+    border-radius: 8px !important;
+}
+
+.ant-select-selection-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

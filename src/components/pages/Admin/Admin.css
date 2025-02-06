@@ -1,0 +1,49 @@
+.logo {
+    height: 32px;
+    margin: 16px;
+    color: white;
+    text-align: center;
+}
+  
+.site-layout-sub-header-background {
+    background: #fff;
+}
+  
+.site-layout-background {
+    background: #fff;
+}
+
+[data-theme="dark"] .site-layout-sub-header-background {
+    background: #141414;
+}
+
+.main-div {
+    min-height: 100vh;
+}
+
+.full-height {
+    height: 100%
+}
+
+a.delete {
+    color: rgb(24, 144, 255)
+}
+
+.item-display {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bold-text {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.horizont-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-padding {
+    padding: 10px;
+}

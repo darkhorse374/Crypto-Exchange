@@ -1,0 +1,208 @@
+[
+  {
+    "address": "0x096901973AC5b4dd14728fAE04597b90B2a47da9",
+    "chainId": 56,
+    "name": "Tree",
+    "symbol": "Tree",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/TreeDeFi/token-list/main/seed.png"
+  },
+  {
+    "address": "0x9F4c4AC66a6C4B3b22Da214Ca43B326FAB0826d1",
+    "chainId": 56,
+    "name": "MilkShake",
+    "symbol": "Milk",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/TreeDeFi/token-list/main/tree.png"
+  },
+  {
+    "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+    "chainId": 56,
+    "name": "BinanceUSD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/busd_32.png"
+  },
+
+  {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "chainId": 56,
+    "name": "WrappedBNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/binance_32.png"
+  },
+
+  {
+    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "chainId": 56,
+    "name": "Bitcoin",
+    "symbol": "BTCB",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/btcb_32.png"
+  },
+  {
+    "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    "chainId": 56,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/ethereum_32.png"
+  },
+  {
+    "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+    "chainId": 56,
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/chainlink_32.png"
+  },
+  {
+    "address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
+    "chainId": 56,
+    "name": "BandProtocol",
+    "symbol": "BAND",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/bandtoken_32.png"
+  },
+  {
+    "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+    "chainId": 56,
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/polkadot_32.png"
+  },
+  {
+    "address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+    "chainId": 56,
+    "name": "BitcoinCash",
+    "symbol": "BCH",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/bitcoincash_32.png"
+  },
+  {
+    "address": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+    "chainId": 56,
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/litecoin_32.png"
+  },
+  {
+    "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+    "chainId": 56,
+    "name": "Cardano",
+    "symbol": "ADA",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/cardano_32.png"
+  },
+  {
+    "address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+    "chainId": 56,
+    "name": "EOS",
+    "symbol": "EOS",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/eos_32.png"
+  },
+  {
+    "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+    "chainId": 56,
+    "name": "Ripple",
+    "symbol": "XRP",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/xrp_32.png"
+  },
+  {
+    "address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+    "chainId": 56,
+    "name": "Tezos",
+    "symbol": "XTZ",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/tezos_32.png"
+  },
+  {
+    "address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
+    "chainId": 56,
+    "name": "Ontology",
+    "symbol": "ONT",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/ontology_32.png"
+  },
+  {
+    "address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
+    "chainId": 56,
+    "name": "YFII.finance",
+    "symbol": "YFII",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/dfimoney_32.png"
+  },
+  {
+    "address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+    "chainId": 56,
+    "name": "Cosmos Network",
+    "symbol": "ATOM",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/cosmos_32.png"
+  },
+  {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "chainId": 56,
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/tether_32.png"
+  },
+  {
+    "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    "chainId": 56,
+    "name": "DAI Token",
+    "symbol": "DAI",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/dai_32.png"
+  },
+  {
+    "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "chainId": 56,
+    "name": "PancakeSwap Token",
+    "symbol": "CAKE",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/pancake_32.png"
+  },
+  {
+    "address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
+    "chainId": 56,
+    "name": "ALPHA Token",
+    "symbol": "ALPHA",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/alpha_32.png"
+  },
+  {
+    "address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
+    "chainId": 56,
+    "name": "Binance-Peg yearn.finance",
+    "symbol": "YFI",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/yfi_32.png"
+  },
+
+
+
+  {
+    "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+    "chainId": 97,
+    "name": "BinanceUSD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/busd_32.png"
+  },
+  {
+    "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "chainId": 97,
+    "name": "WrappedBNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/binance_32.png"
+  }
+]
+

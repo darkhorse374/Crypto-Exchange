@@ -1,0 +1,14 @@
+{
+	"MGL Exchange: Email Verification": "MGL Exchange: Email Verification",
+	"Your Email verification code is %s": "Your Email verification code is %s",
+	"MGL Exchange: Tokens received": "MGL Exchange: Tokens received",
+	"You have received %s %s tokens in your wallet.": "You have received %s %s tokens in your wallet.",
+	"MGL Exchange: Tokens sent": "MGL Exchange: Tokens sent",
+	"You have sent %s %s to %s": "You have sent %s %s to %s",
+	"MGL Exchange: Account Created Sucessfully": "MGL Exchange: Account Created Sucessfully",
+	"Your MGL Exchange account has been created sucessfully. Thank you.": "Your MGL Exchange account has been created sucessfully. Thank you.",
+	"MGL Exchange - Wallet Created Sucessfully": "MGL Exchange - Wallet Created Sucessfully",
+	"Your MGL Exchange wallet has been created sucessfully. Thank you.": "Your MGL Exchange wallet has been created sucessfully. Thank you.",
+	"MGL Exchange - Password Reset": "MGL Exchange - Password Reset",
+	"To reset your password, please click on this link: %s": "To reset your password, please click on this link: %s"
+}
