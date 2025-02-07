@@ -48,7 +48,7 @@ function ResetPassword(props) {
                 }
                 else{
                   openNotification(t('Login Failed'),response.data.message,false);
-                  // setMessage({style:'text-red-500',val:false,data:"Login failed! "})
+                  setMessage({style:'text-red-500',val:false,data:"Login failed! "})
                 }
                 
               })
